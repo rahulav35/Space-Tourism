@@ -1,0 +1,48 @@
+@media (max-width:600px){
+
+    .crewdiv{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("../../assets/crew/background-crew-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        overflow: hidden;
+        
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.crewdiv{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+}
+
+
+
+
+.carousel-root {
+    outline: none;
+    width: 100%;
+    
+
+
+}

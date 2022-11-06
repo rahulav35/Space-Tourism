@@ -1,0 +1,290 @@
+.launchdiv{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 100px;
+}
+
+
+
+.launchfirstline{ height: 7%;
+width: 100%;
+margin-top: 10px;
+display: flex;
+margin-right: 990px;
+
+
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+
+.numb{
+font-size: medium;
+display: flex;
+justify-content: space-evenly;
+padding-right: 80px;
+box-sizing: border-box;
+
+align-items: center;
+color: rgb(226, 117, 117);
+font-weight: 700;
+
+}
+.spacelaunch{
+font-size: medium;
+
+color: white;
+font-weight: 400;
+padding-left: 10px;
+box-sizing: border-box;
+}
+
+
+.launchseconddiv{
+    height: 57%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.launchpicdiv{
+height: 100%;
+width: 36%;
+
+
+display: flex;
+
+justify-content: end;
+
+}
+.launchpic{
+height: 100%;
+width: 75%;
+
+
+}
+
+.writting{
+height: 450px;
+width: 35%;
+
+
+display: flex;
+flex-direction: column;
+
+justify-content:space-evenly;
+margin-left: 400px;
+text-align: left;
+margin-top: -49px;
+
+
+}
+.thetech{
+font-size: small;
+color: white;
+font-weight: 300;
+padding-top: 20px;
+box-sizing: border-box;
+
+
+
+
+}
+.launchvehicle{
+font-size: 37px;
+color: white;
+font-weight: 400;
+
+max-width: 100%;
+width: 70%;
+
+margin-top: -90px;
+}
+.carrier{
+font-size: 12px;
+color: white;
+text-align: center;
+max-width: 60%;
+font-weight: 200;
+text-align: left;
+margin-top: -90px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+    .launchdiv{
+        height: 100%;
+        width: 100%;
+        margin-top: 30px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding-top: 40px;
+    }
+
+
+
+
+
+
+.launchseconddiv{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+    
+}
+
+
+
+   .launchfirstline{ height: 7%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.numb{
+    font-size: medium;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 80px;
+    box-sizing: border-box;
+
+    align-items: center;
+    color: rgb(226, 117, 117);
+    font-weight: 700;
+
+}
+.spacelaunch{
+    font-size: medium;
+    
+    color: white;
+    font-weight: 400;
+    padding-left: 10px;
+    box-sizing: border-box;
+    
+}
+    
+.launchpicdiv{
+    height: 35%;
+    width: 100%;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-top: 30px;
+}
+.launchpic{
+    height: 100%;
+    width: 90%;
+    
+   
+}
+
+.writting{
+    height: 50%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 45px;
+    
+}
+.thetech{
+    font-size: medium;
+    color: white;
+    font-weight: 300;
+
+    
+    
+}
+.launchvehicle{
+    font-size: x-large;
+    color: white;
+    font-weight: 400;
+    margin-left: 30px;
+    
+}
+.carrier{
+    font-size: small;
+    color: white;
+    text-align: center;
+    max-width: 90%;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

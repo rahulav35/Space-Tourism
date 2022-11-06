@@ -1,0 +1,132 @@
+.taskdiv{
+    
+    height: 75%;
+    margin-top: 150PX;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.firstdiv{
+    
+    height: 60%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.so{
+    font-size: large;
+    color: white;
+    font-weight: 400;
+    margin-bottom: -40px;
+    
+}
+.space{
+    font-size: 90px;
+    color: white;
+    font-weight: 300;
+}
+.lets{
+    font-size: x-small;
+    color: white;
+    font-weight: 300;
+    margin-top: -30px;
+}
+
+.seconddiv{
+    outline: 1px solid white;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+    
+    background-color: white;
+}
+.explore{
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 500;
+}
+.seconddiv:hover{
+    box-shadow: 0px 0px 40px 3px white;
+}
+
+
+@media (max-width:600px){
+.taskdiv{
+    
+    height: 100%;
+    margin-top: 45px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+
+.firstdiv{
+    
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+    .so{
+        font-size: larger;
+        color: white;
+        font-weight: 400;
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+
+.lets{
+    font-size: medium;
+    color: white;
+    font-weight: 300;
+    margin-top: -30px;
+    padding-left: 10px;
+    height: 30%;
+    
+    text-align: center;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+}
+
+
+.seconddiv{
+    outline: 1px solid white;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 90px;
+    
+    background-color: white;
+}
+
+
+}

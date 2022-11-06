@@ -1,0 +1,348 @@
+
+.marsdiv{
+    height: 100%;
+    width: 100%;
+    margin-top: 120px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 40px;
+    
+        
+        
+    }
+
+    .firstline{
+        
+        height: 7%;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 30px;
+
+
+
+        
+        
+        
+    }
+    .num{
+        font-size: medium;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 80px;
+        box-sizing: border-box;
+
+        align-items: center;
+        color: rgb(226, 117, 117);
+        font-weight: 700;
+
+    }
+    .pick{
+        font-size: medium;
+        padding-left: 10px;
+        color: white;
+        font-weight: 400;
+    }
+
+
+
+
+    .picdiv{
+        height: 50%;
+        width: 100%;
+        
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+       
+        padding-left: 80px;
+        box-sizing: border-box;
+        
+        
+        
+        
+
+    }
+    .pic{
+        
+        height: 300px;
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+    .planetname{
+height: 10%;
+width: 100%;
+
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -320px;
+        margin-left: -200px;
+        
+    
+    }
+
+    
+    .planet{
+        font-size: medium;
+        font-weight: 400;
+        color: white;
+        padding-right: 20px;
+
+
+}
+.detaildiv{
+    
+    height: 28%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -50px;
+   
+    margin-left: 750px;
+    margin-top: -250px;
+}
+.marss{
+    font-size: 70px;
+    color: white;
+    
+    font-weight: 400;
+margin-top: -1px;
+
+    
+}
+.dont{
+    font-size: 14px;
+    color: white;
+    max-width: 65%;
+    text-align: start;
+    margin-top: -2px;
+font-weight: 300;
+}
+.line2{
+    width: 28%;
+    height: 1px;
+    background-color: aquamarine;
+    align-self: center;
+    margin-block: 20px;
+    margin-left: 500px;
+    
+}
+.lastdiv{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    margin-left: 600px;
+    
+}
+.dis{
+    font-size: small;
+    color: white;
+    font-weight: 300;
+    
+
+}
+.km{
+    font-size: larger;
+    color: white;
+    font-weight: 500;
+    margin-top: -0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+    .marsdiv{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 40px;
+    
+        
+        
+    }
+
+    .firstline{
+        
+        height: 7%;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        
+        
+    }
+    .num{
+        font-size: medium;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 80px;
+        box-sizing: border-box;
+
+        align-items: center;
+        color: rgb(226, 117, 117);
+        font-weight: 700;
+
+    }
+    .pick{
+        font-size: medium;
+        padding-left: 10px;
+        color: white;
+        font-weight: 400;
+    }
+
+
+
+
+    .picdiv{
+        height: 40%;
+        width: 100%;
+        
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+        
+
+    }
+    .pic{
+        margin-top: -55px;
+        height: 170px;
+        width: 170px;
+        margin-left: -100px;
+    }
+    .planetname{
+height: 10%;
+width: 100%;
+
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-right: -130px;
+        
+    
+    }
+
+    
+    .planet{
+        font-size: medium;
+        font-weight: 400;
+        color: white;
+        
+
+
+}
+.detaildiv{
+    
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: -5px;
+}
+.marss{
+    font-size: 70px;
+    color: white;
+    
+    font-weight: 400;
+margin-top: -1px;
+
+    
+}
+.dont{
+    font-size: 16px;
+    color: white;
+    max-width: 85%;
+    text-align: center;
+    margin-top: -2px;
+font-weight: 300;
+}
+.line2{
+    width: 85%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.568);
+    align-self: center;
+    margin-block: 10px;
+    margin-left: -5px;
+    
+}
+.lastdiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -5px;
+    
+}
+.dis{
+    font-size: medium;
+    color: white;
+    font-weight: 300;
+
+}
+.km{
+    font-size: x-large;
+    color: white;
+    font-weight: 500;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
