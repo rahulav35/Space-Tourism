@@ -1,48 +1,81 @@
-@media (max-width:600px){
-
-    .crewdiv{
-        height: 100vh;
-        width: 100vw;
-        background-image: url("../../assets/crew/background-crew-mobile.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        overflow: hidden;
-        
-
+.crewdiv {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
 }
 
+.carouselclass {
+  width: 100vw;
+  min-height: 100vh;
+
+  overflow: hidden;
 }
 
+.numbers {
+  position: absolute;
+  left: 40px;
+  top: 20vh;
+  font-size: medium;
+  display: flex;
+  justify-content: space-evenly;
 
+  align-items: center;
+  color: rgb(226, 117, 117);
+  font-weight: 700;
+}
+.meetyour {
+  font-size: medium;
 
+  color: white;
+  font-weight: 400;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
 
-
-
-
-
-
-
-
-.crewdiv{
+@media (max-width: 600px) {
+  .crewdiv {
     height: 100vh;
     width: 100vw;
-    background-image: url("../../assets/crew/background-crew-desktop.jpg");
+    background-image: url("../../assets/crew/background-crew-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     position: relative;
-}
+    overflow: hidden;
+  }
 
+  .carouselclass {
+    width: 100vw;
+    min-height: 100vh;
 
+    overflow: hidden;
+  }
 
+  .numbers {
+    font-size: medium;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 80px;
+    box-sizing: border-box;
+    margin-top: -50px;
 
-.carousel-root {
-    outline: none;
-    width: 100%;
-    
+    align-items: center;
+    color: rgb(226, 117, 117);
+    font-weight: 700;
+  }
+  .meetyour {
+    font-size: medium;
 
-
+    color: white;
+    font-weight: 400;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
 }

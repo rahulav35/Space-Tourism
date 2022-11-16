@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Header.css";
 import logo from "../../assets/shared/logo.svg";
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
+import { headerContext } from "./HeaderContext";
 
 const Header = () => {
+  const { open, setOpen } = useContext(headerContext);
+  console.log(open);
   return (
     <div className="headerdiv">
       <img className="logo" src={logo} alt="" />
@@ -36,6 +40,14 @@ const Header = () => {
           </h1>
         </Link>
       </div>
+      <FaBars
+        color="white"
+        size={35}
+        className="menubar"
+        onClick={() => {
+          setOpen(!open);
+        }}
+      />
     </div>
   );
 };

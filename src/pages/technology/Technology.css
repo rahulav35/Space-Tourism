@@ -1,38 +1,90 @@
+.technologydiv {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
 
-.technologydiv{
+.carouseltech {
+  width: 100vw;
+  min-height: 100vh;
+
+  overflow: hidden;
+  position: relative;
+}
+.container {
+  position: absolute;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  margin-top: -250px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.numb {
+  position: absolute;
+  left: 40px;
+  top: 20vh;
+  font-size: medium;
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  color: rgb(226, 117, 117);
+  font-weight: 700;
+}
+.spacelaunch {
+  font-size: medium;
+
+  color: white;
+  font-weight: 400;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .technologydiv {
     height: 100vh;
     width: 100vw;
-    background-image: url("../../assets/technology/background-technology-desktop.jpg");
+    background-image: url("../../assets/technology/background-technology-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
-    overflow: hidden;
-    
+    position: relative;
+  }
+  .carouseltech {
+    width: 100vw;
+    min-height: 100vh;
+  }
+  .numb {
+    font-size: medium;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 80px;
+    box-sizing: border-box;
+    margin-top: -50px;
+
+    align-items: center;
+    color: rgb(226, 117, 117);
+    font-weight: 700;
+  }
+  .spacelaunch {
+    font-size: medium;
+
+    color: white;
+    font-weight: 400;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:600px){
-
-    .technologydiv{
-        height: 100vh;
-        width: 100vw;
-        background-image: url("../../assets/technology/background-technology-mobile.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        position: relative;
-}}
